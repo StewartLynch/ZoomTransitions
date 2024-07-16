@@ -19,7 +19,7 @@ import SwiftUI
 struct ZoomTransitionsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoGridView()
         }
     }
 }

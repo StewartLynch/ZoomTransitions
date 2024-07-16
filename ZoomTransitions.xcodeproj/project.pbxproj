@@ -3,16 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		BBE0D0512C472FBF00C89180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE0D0492C472FBF00C89180 /* Preview Assets.xcassets */; };
+		BBE0D0522C472FBF00C89180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE0D04B2C472FBF00C89180 /* Assets.xcassets */; };
+		BBE0D0532C472FBF00C89180 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE0D04D2C472FBF00C89180 /* Launch Screen.storyboard */; };
+		BBE0D0552C472FBF00C89180 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0D04E2C472FBF00C89180 /* MyImage.swift */; };
+		BBE0D0562C472FBF00C89180 /* ZoomTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0D04F2C472FBF00C89180 /* ZoomTransitionsApp.swift */; };
+		BBE0D0622C47342700C89180 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0D05F2C47342700C89180 /* DetailView.swift */; };
+		BBE0D0632C47342700C89180 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0D0602C47342700C89180 /* PhotoGridView.swift */; };
+		BBE0D0652C47369100C89180 /* DetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0D0642C47369100C89180 /* DetailView2.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BBA325552C46E302002CE394 /* ZoomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE0D0492C472FBF00C89180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBE0D04B2C472FBF00C89180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBE0D04D2C472FBF00C89180 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BBE0D04E2C472FBF00C89180 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		BBE0D04F2C472FBF00C89180 /* ZoomTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionsApp.swift; sourceTree = "<group>"; };
+		BBE0D05F2C47342700C89180 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BBE0D0602C47342700C89180 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		BBE0D0642C47369100C89180 /* DetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BBA325572C46E302002CE394 /* ZoomTransitions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZoomTransitions; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BBA325522C46E302002CE394 /* Frameworks */ = {
@@ -28,7 +43,7 @@
 		BBA3254C2C46E302002CE394 = {
 			isa = PBXGroup;
 			children = (
-				BBA325572C46E302002CE394 /* ZoomTransitions */,
+				BBE0D0502C472FBF00C89180 /* ZoomTransitions */,
 				BBA325562C46E302002CE394 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +54,45 @@
 				BBA325552C46E302002CE394 /* ZoomTransitions.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE0D04A2C472FBF00C89180 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBE0D0492C472FBF00C89180 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBE0D0502C472FBF00C89180 /* ZoomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				BBE0D04F2C472FBF00C89180 /* ZoomTransitionsApp.swift */,
+				BBE0D0612C47342700C89180 /* Views */,
+				BBE0D0592C472FED00C89180 /* Models */,
+				BBE0D04A2C472FBF00C89180 /* Preview Content */,
+				BBE0D04B2C472FBF00C89180 /* Assets.xcassets */,
+				BBE0D04D2C472FBF00C89180 /* Launch Screen.storyboard */,
+			);
+			path = ZoomTransitions;
+			sourceTree = "<group>";
+		};
+		BBE0D0592C472FED00C89180 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBE0D04E2C472FBF00C89180 /* MyImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BBE0D0612C47342700C89180 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBE0D0602C47342700C89180 /* PhotoGridView.swift */,
+				BBE0D05F2C47342700C89180 /* DetailView.swift */,
+				BBE0D0642C47369100C89180 /* DetailView2.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BBA325572C46E302002CE394 /* ZoomTransitions */,
 			);
 			name = ZoomTransitions;
 			packageProductDependencies = (
@@ -104,6 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE0D0512C472FBF00C89180 /* Preview Assets.xcassets in Resources */,
+				BBE0D0522C472FBF00C89180 /* Assets.xcassets in Resources */,
+				BBE0D0532C472FBF00C89180 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE0D0622C47342700C89180 /* DetailView.swift in Sources */,
+				BBE0D0632C47342700C89180 /* PhotoGridView.swift in Sources */,
+				BBE0D0552C472FBF00C89180 /* MyImage.swift in Sources */,
+				BBE0D0652C47369100C89180 /* DetailView2.swift in Sources */,
+				BBE0D0562C472FBF00C89180 /* ZoomTransitionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

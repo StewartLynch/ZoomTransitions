@@ -15,18 +15,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DetailView: View {
+    @Environment(\.dismiss) var dismiss
+    let image: MyImage
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Image(image.imageName)
+            .resizable()
+            .scaledToFill()
+            .ignoresSafeArea()
+            .navigationBarBackButtonHidden(true)
+            .toolbar {
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.title)
+                        .foregroundStyle(.white)
+                }
+            }
     }
 }
 
 #Preview {
-    ContentView()
+    NavigationStack{
+        DetailView(image: MyImage.samples[0])
+    }
 }
