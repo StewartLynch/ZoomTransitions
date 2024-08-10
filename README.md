@@ -2,7 +2,7 @@
 
 ![mac128](Images/mac128.png) This is the starter project for the video iOS18 Zoom Transitions
 
-The completed project is in the **CompletedProject Branch**
+Release Date: August 25, 2024
 
 
 
