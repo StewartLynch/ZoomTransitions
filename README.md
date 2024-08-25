@@ -2,7 +2,9 @@
 
 ![mac128](Images/mac128.png) This is the starter project for the video iOS18 Zoom Transitions
 
-Release Date: August 25, 2024
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=88_4yW5vr1A
+" target="_blank"><img src="http://img.youtube.com/vi/88_4yW5vr1A/0.jpg" 
+alt="Zoom Transitions" width="480" height="360" border="1" /></a>
 
 
 
